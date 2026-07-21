@@ -1,9 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "bang-dream-screenshot-search",
-  "version": "0.1.0",
   "title": "BanG Dream! Screenshot Search",
-  "description": "Search and copy screenshots from BanG Dream! anime series.",
+  "description": "Search and copy dialogue screenshots from MyGO!!!!! and Ave Mujica.",
   "icon": "icon.png",
   "author": "luke_lin",
   "license": "MIT",
@@ -15,17 +14,19 @@
   ],
   "keywords": [
     "bang dream",
-    "screenshot",
-    "meme",
     "mygo",
-    "ave mujica"
+    "ave mujica",
+    "anime",
+    "screenshot",
+    "reaction image",
+    "meme"
   ],
   "commands": [
     {
       "name": "search-screenshots",
       "title": "Search Screenshots",
       "subtitle": "BanG Dream!",
-      "description": "Search and copy anime screenshots.",
+      "description": "Search BanG Dream! dialogue screenshots and copy images to the clipboard.",
       "mode": "view"
     }
   ],
